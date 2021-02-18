@@ -1,0 +1,2 @@
+C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\Debug\TemplateProject.exe
+C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\Debug\TemplateProject.pdb
