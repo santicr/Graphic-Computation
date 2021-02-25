@@ -1,0 +1,9 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.cpp
+  Robot.cpp
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Robot.cpp(28,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Robot.cpp(33,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Robot.cpp(38,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Robot.cpp(43,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+  TemplateProject.vcxproj -> C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Debug\TemplateProject.exe
