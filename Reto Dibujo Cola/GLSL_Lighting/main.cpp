@@ -9,6 +9,11 @@
 #include <iostream>
 #include "glsl.h"
 #include <time.h>
+#include "Arbol.h"
+#include "Teteras.h"
+#include "Triangulo.h"
+#include "Robot.h"
+#include "Cola.h"
 
 //-----------------------------------------------------------------------------
 
@@ -22,6 +27,11 @@ protected:
    clock_t time0,time1;
    float timer010;  // timer counting 0->1->0
    bool bUp;        // flag if counting up or down.
+   Arbol Saman;
+   Triangulo Lados;
+   Teteras Tete;
+   Robot Bender;
+   Cola Mono;
 
 
 public:
@@ -36,45 +46,22 @@ public:
       if (shader) shader->begin();
          //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
 
-      //Tres teteras
-      glPushMatrix();
-          glTranslatef(3.0f, 0.0f, -5.0f);
-          glutSolidTeapot(0.5);
-          glTranslatef(-6.0f, 0.0f, 0.0f);
-          glutSolidTeapot(0.5);
-          glTranslatef(3.0f, -3.0f, 0.0f);
-          glutSolidTeapot(0.5);
-      glPopMatrix();
+      glTranslatef(0, 0, -2);
 
-      //Cubos
-      glPushMatrix();
-        glTranslatef(1.18f, 1.18f, 0.0f);
-        glRotatef(-45, 0, 0, 1);
-        glutSolidCube(0.5);
-      glPopMatrix();
+      //Arbol
+      //Saman.DibujarArbol(0, 0, 0);
 
-      glPushMatrix();
-          glTranslatef(-1.18f, 0.8f, 0.0f);
-          glRotatef(45, 0, 0, 1);
-          glutSolidCube(0.5);
-      glPopMatrix();
+      //Tetera
+      //Tete.DibujarTetera(3, 0, 0);
       
       //Triangulo
-      glPushMatrix();
-      glScalef(0.3, 0.3, 0.8);
-      glTranslatef(0.0f, 3.0f, 0.0f);
-        glBegin(GL_TRIANGLES);
-        glVertex3f(1.5f, 0.0f, 0.0f);
-        glVertex3f(-1.5f, 0.0f, 0.0f);
-        glVertex3f(0, 2.3, 0.0f);
-        glEnd();
-      glPopMatrix();
+      //Lados.DibujarTriangulo(0, 3, 0);
 
-      //Adicional
-      glPushMatrix();
-      glScalef(0.3, 0.3, 0.3);
-      glutSolidSphere(3, 3, 3);
-      glPopMatrix();
+      //Robot
+      //Bender.DibujarRobot(0, -1, 0);
+      
+      //Cola
+      Mono.DibujarCola();
 
       if (shader) shader->end();
       glutSwapBuffers();
@@ -106,6 +93,12 @@ public:
       time0 = clock();
       timer010 = 0.0f;
       bUp = true;
+
+      Saman = Arbol();
+      Lados = Triangulo();
+      Tete = Teteras();
+      Bender = Robot();
+      Mono = Cola();
 
       DemoLight();
 

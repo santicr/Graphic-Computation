@@ -1,2 +1,4 @@
 C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\Debug\TemplateProject.exe
 C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\Debug\TemplateProject.pdb
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Debug\TemplateProject.exe
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Debug\TemplateProject.pdb

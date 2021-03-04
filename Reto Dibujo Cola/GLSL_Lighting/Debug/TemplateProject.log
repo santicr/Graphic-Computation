@@ -1,6 +1,7 @@
 ﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  main.cpp
-C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\main.cpp(64,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\main.cpp(69,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\main.cpp(75,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-  TemplateProject.vcxproj -> C:\Users\santi\Documents\Semestre-VI\Computacion Grafica\GLSL_Lighting\Debug\TemplateProject.exe
+  Cola.cpp
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Cola.cpp(15,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Cola.cpp(20,31): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Cola.cpp(21,40): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Cola.cpp(24,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  TemplateProject.vcxproj -> C:\Users\santi\Documents\Computacion-grafica\Reto Dibujo 2\GLSL_Lighting\Debug\TemplateProject.exe
