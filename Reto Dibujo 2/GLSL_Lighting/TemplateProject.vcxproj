@@ -90,6 +90,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Arbol.h" />
+    <ClInclude Include="Cola.h" />
     <ClInclude Include="cwc\include\glApplication.h" />
     <ClInclude Include="cwc\include\glsl.h" />
     <ClInclude Include="cwc\include\glutwindow.h" />
@@ -109,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Arbol.cpp" />
+    <ClCompile Include="Cola.cpp" />
     <ClCompile Include="cwc\source\glApplication.cpp" />
     <ClCompile Include="cwc\source\glsl.cpp" />
     <ClCompile Include="cwc\source\glutwindow.cpp" />

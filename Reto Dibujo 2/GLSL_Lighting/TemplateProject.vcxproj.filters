@@ -84,6 +84,9 @@
     <ClInclude Include="Robot.h">
       <Filter>Clases</Filter>
     </ClInclude>
+    <ClInclude Include="Cola.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glew\source\glew.c">
@@ -178,6 +181,9 @@
       <Filter>Clases</Filter>
     </ClCompile>
     <ClCompile Include="Robot.cpp">
+      <Filter>Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="Cola.cpp">
       <Filter>Clases</Filter>
     </ClCompile>
   </ItemGroup>

@@ -13,6 +13,7 @@
 #include "Teteras.h"
 #include "Triangulo.h"
 #include "Robot.h"
+#include "Cola.h"
 
 //-----------------------------------------------------------------------------
 
@@ -30,6 +31,7 @@ protected:
    Triangulo Lados;
    Teteras Tete;
    Robot Bender;
+   Cola Mono;
 
 
 public:
@@ -44,19 +46,22 @@ public:
       if (shader) shader->begin();
          //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
 
-      glTranslatef(0, 0, -1.5);
+      glTranslatef(0, 0, -2);
 
       //Arbol
-      Saman.DibujarArbol(-3, 0, 0);
+      //Saman.DibujarArbol(0, 0, 0);
 
       //Tetera
-      Tete.DibujarTetera(3, 0, 0);
+      //Tete.DibujarTetera(3, 0, 0);
       
       //Triangulo
-      Lados.DibujarTriangulo(0, 3, 0);
+      //Lados.DibujarTriangulo(0, 3, 0);
 
       //Robot
-      Bender.DibujarRobot(0, -1, 0);
+      //Bender.DibujarRobot(0, -1, 0);
+      
+      //Cola
+      Mono.DibujarCola();
 
       if (shader) shader->end();
       glutSwapBuffers();
@@ -93,6 +98,7 @@ public:
       Lados = Triangulo();
       Tete = Teteras();
       Bender = Robot();
+      Mono = Cola();
 
       DemoLight();
 
